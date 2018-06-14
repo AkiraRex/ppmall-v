@@ -20,4 +20,4 @@
     生产模式: npm run dist (windows系统上为npm run dist_win)
 
 7.开发模式下预览项目
-    访问：http://localhost:8088/dist/view/index.html
+    访问：http://localhost:8081/dist/view/index.html
