@@ -1,0 +1,16 @@
+{{#categoryList}}
+<div class="floor-wrap">
+    <h1 class="floor-title">{{name}}</h1>
+    <ul class="floor-list">
+        {{#subCategoryList}}
+        <li class="floor-item">
+            <a href="./list.html?categoryId={{id}}">
+                <span class="floor-text">{{name}}</span>
+                <img class="floor-img" src="../../image/floor/floor1-1.jpg" alt="双开门冰箱" />
+            </a>
+        </li>
+        {{/subCategoryList}}
+    </ul>
+</div>
+{{/categoryList}}
+
